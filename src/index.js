@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { App } from './routers/App';
+import { AppBase } from './AppBase';
 
-
-ReactDOM.render(<App/>, document.getElementById('app'));
+ReactDOM.render(<AppBase/>, document.getElementById('app'));
